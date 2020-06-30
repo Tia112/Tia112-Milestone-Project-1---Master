@@ -10,13 +10,39 @@
       color:  #141484;
     }
 
+    /* Set the border color to the desired color */
+    .custom-toggler.navbar-toggler {
+        border-color: #141484;
+      }
+        /* Setting the stroke to green using rgb values (0, 128, 0) */
 
+        .custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(20, 20, 132, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+
+/* @media (min-width: 1000px)
+{
+  .navbar-nav custom {
+    position: center;
+  }
+} */
+
+@media only screen and (max-width:800px) {
+    .desk {
+      center;
+      width: 100%;
+            }
+}
   body {
   margin: 0;
   text-align: center;
   font-family: 'Tajawal', sans-serif;
   font-size: 1.2rem;
   }
+
+
 
 h1 {
   color: #141484;
@@ -447,5 +473,6 @@ padding:20px 0px;
 }
 
 .btn:hover {
-  text-decoration: none;
+
+    color: #E600E6;
 }
