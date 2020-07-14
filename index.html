@@ -2,7 +2,8 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <title>Attiya Riaz</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Attiya Riaz | Home </title>
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Tajawal&display=swap" rel="stylesheet">
       <!-- CSS Stylesheets -->
@@ -50,12 +51,22 @@
             <div class="top-container">
                <h1> Attiya Riaz</h1>
                <h2>Full Stack Developer</h2>
-               <img class="desk" src="assets/images/hijaabi_desk_tri.png" alt="hijab-img"></img>
+         <!-- Picture tag to load alternative image on 5k screen      -->
+               <picture>
+               <source srcset="assets/images/hijaabi-desk-long-5k.png" media="(min-width: 5000px)">
+               <img class="desk-img" src="assets/images/hijaabi-desk-tri.png" alt="hijab-img">
+            </picture>
+          
          </section>
          </div>
          <section>
             <div class="middle-container">
-               <img class="head" src="assets/images/hijaab_head-bg.png">
+
+               <picture>
+                  <source srcset="assets/images/hijaab-head-bg-lrg.png" media="(min-width: 5000px)">
+                  <img class="head-img" src="assets/images/hijaab-head-bg.png">
+               </picture>
+               
                <div class="profile">
                   <h4>Hello</h4>
                   <h3>
@@ -69,7 +80,7 @@
          <div class="middle1-container">
          <div class="skills">
          <h5>My Skills</h5>
-         <img class="logos" src="assets/images/logos.png">
+         <img class="logos-img" src="assets/images/logos.png">
          </section>
          </div>
          </div>
