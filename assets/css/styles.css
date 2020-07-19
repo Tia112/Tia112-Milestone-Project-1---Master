@@ -1,41 +1,27 @@
 /* Attiya Riaz */
-
-
 /* NAV Bar Customisation - icon, color, brand */
-
 .navbar-custom {
 	background-color: #e5e5e5;
 }
-
-
 /* Modify brand and text color */
-
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
 	color: #141484;
 }
-
-
 /* Set the border color to the desired color */
-
 .custom-toggler.navbar-toggler {
 	border-color: #141484;
 }
-
-
 /*Load burger icon for nav toggler*/
-
 .custom-toggler .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(20, 20, 132, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
 body {
 	margin: 0;
 	text-align: center;
 	font-family: 'Tajawal', sans-serif;
 	font-size: 1.2rem;
 }
-
+/* Styling for Headings */
 h1 {
 	color: #141484;
 	font-size: 5.625rem;
@@ -44,7 +30,6 @@ h1 {
 	margin: 0 auto 0 auto;
 	font-family: 'Dancing Script', cursive;
 }
-
 h2 {
 	color: #141484;
 	font-family: 'Montserrat', sans-serif;
@@ -54,7 +39,6 @@ h2 {
 	font-weight: bold;
 	padding-bottom: 0.625rem;
 }
-
 h3 {
 	color: #141484;
 	font-size: 1.5rem;
@@ -62,7 +46,6 @@ h3 {
 	font-weight: normal;
 	margin-bottom: 2.5rem;
 }
-
 h4 {
 	color: #141484;
 	font-family: 'Montserrat', sans-serif;
@@ -71,7 +54,6 @@ h4 {
 	line-height: 2;
 	font-weight: bold;
 }
-
 h5 {
 	color: #141484;
 	font-family: 'Montserrat', sans-serif;
@@ -81,32 +63,23 @@ h5 {
 	font-weight: bold;
 	padding-bottom: 0.3125rem;
 }
-
-
+/* Icon Styling */
 a {
 	color: #141484;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0.625rem 1.25rem;
 	text-decoration: none;
 }
-
+/* Button hover styling */
 a:hover {
 	color: #E600E6;
 }
-
+/* Container, Image and Text Styling */
 .top-container {
 	background-color: #e5e5e5;
 	padding-top: 4.0625rem;
 }
-
-
-/* #skills.top-container {
-	background-color: #e5e5e5;
-	padding-top: 4.0625rem;
-} */
-
-#skills .html-container,
-.javascript-container {
+#skills .html-container, .javascript-container {
 	background-color: #e5e5e5;
 	padding-top: 5rem;
 	padding-bottom: 90px;
@@ -116,9 +89,7 @@ a:hover {
 	margin-top: -1.5rem;
 	text-align: left;
 }
-
-#skills .css-container,
-.python-django-container {
+#skills .css-container, .python-django-container {
 	background-color: white;
 	padding-top: 5rem;
 	padding-bottom: 90px;
@@ -128,14 +99,12 @@ a:hover {
 	margin-top: -1.5rem;
 	text-align: left;
 }
-
 .h-img {
 	width: 15%;
 	float: left;
 	margin-right: 3.75rem;
 	margin-left: 0.9375rem;
 }
-
 #skills .desc {
 	line-height: 2;
 	color: black;
@@ -144,45 +113,35 @@ a:hover {
 	font-weight: normal;
 	text-align: left;
 }
-
 .middle-container {
 	margin: 6.25rem;
 }
-
 .middle1-container {
 	background-color: #e5e5e5;
 }
-
 .middle2-container {
 	background-color: white;
 }
-
 .skills-bottom-container {
 	background-color: #e5e5e5;
 	padding: 3.125rem 0 1.25rem 0;
 	margin-top: -6.25rem;
 }
-
 .my-project {
 	background-color: #e5e5e5;
 	padding-top: 4.0625rem;
 	padding-bottom: 5rem;
 }
-
-.project1,
-.project2,
-.project3 {
+.project1, .project2, .project3 {
 	background-color: #e5e5e5;
 	margin-top: -5rem;
 	padding-bottom: 5rem;
 }
-
 .proj-h3 {
 	padding-bottom: 1.875rem;
 	margin-bottom: 1.875rem;
 	margin-top: -4.50rem;
 }
-
 .project-img {
 	width: 60%;
 	float: none;
@@ -191,7 +150,6 @@ a:hover {
 	margin-right: 3.125em;
 	margin-bottom: 2.5rem;
 }
-
 .project-desc {
 	text-align: center;
 	margin-top: 3.125rem;
@@ -204,12 +162,10 @@ a:hover {
 	margin-top: 3.125rem;
 	margin-bottom: 1.25rem;
 }
-
 .bottom-container {
 	background-color: #e5e5e5;
 	padding: 3.125rem 0 1.25rem;
 }
-
 .container {
 	max-width: 800px;
 	height: 600px;
@@ -219,45 +175,35 @@ a:hover {
 	box-sizing: border-box;
 	padding: 40px;
 }
-
 .desk-img {
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
 }
-
 .head-img {
 	margin-top: 1.25rem;
 }
-
 .logos-img {
 	max-width: 60%;
 	max-height: 60%;
 	margin-bottom: 1.25rem;
 }
-
 .skills {
 	margin-bottom: -0.625rem;
 }
-
 .Full {
 	text-decoration: underline;
 }
-
 .contact-me {
 	width: 40%;
 	margin: 2.5rem auto 3.75rem;
 }
-
 .copyright {
 	font-size: 0.75rem;
 	font-family: 'Montserrat', sans-serif;
 	color: #141484;
 	padding: 1.25rem 0rem;
 }
-
-
 /* Contact Form */
-
 .container .p {
 	text-align: center;
 	letter-spacing: 1px;
@@ -265,35 +211,24 @@ a:hover {
 	margin-bottom: 20px;
 	color: #486255;
 }
-
-
-
 .login .input {
 	width: 48%;
 	float: left;
 	margin-right: 4%;
 }
-
 .login .input:last-child {
 	margin-right: 0;
 }
-
 .msg .area {
 	height: 500px;
 }
-
-.input:focus,
-.msg .area:focus {
+.input:focus, .msg .area:focus {
 	border: 2px solid #ced4da;
 }
-
 ::-webkit-input-placeholder {
 	font-family: 'roboto';
 }
-
-
 /* Button Styling */
-
 .btn {
 	-webkit-box-shadow: 0px 1px 3px #666666;
 	-moz-box-shadow: 0px 1px 3px #666666;
@@ -306,49 +241,39 @@ a:hover {
 	text-decoration: none;
 	text-transform: capitalize;
 }
-
 .btn:hover {
 	color: #E600E6;
 }
-
-
 /* Responsive for lrg/tbs/mobile */
-
 @media only screen and (max-width:500px) {
 	body {
 		position: relative;
 		width: 100%;
-	}
+   }
 	.desk-img {
 		position: relative;
 		width: 100%;
-	}
+   }
 	.head-img {
 		width: 45%;
 		float: center;
 		margin: 0;
-	}
-
+   }
 	.profile {
 		width: 100%;
-	}
-	
+   }
 	h1 {
 		font-size: 4.25rem;
-	}
-
+   }
 	h2 {
 		font-size: 1.5rem;
-	}
-	
+   }
 	h3 {
 		font-size: 1.1rem;
-	}
-	
+   }
 	#skills .desc {
 		font-size: 1rem;
-	}
-	
+   }
 	#skills .css-container {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
@@ -357,7 +282,7 @@ a:hover {
 		width: 100%;
 		margin-top: -1.5rem;
 		text-align: justify;
-	}
+   }
 	#skills .html-container {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
@@ -366,9 +291,8 @@ a:hover {
 		width: 100%;
 		margin-top: -1.5rem;
 		text-align: justify;
-	}
-	#skills .javascript-container,
-	.python-django-container {
+   }
+	#skills .javascript-container, .python-django-container {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
 		padding-left: 1.5rem;
@@ -376,8 +300,7 @@ a:hover {
 		width: 100%;
 		margin-top: -1.5rem;
 		text-align: justify;
-	}
-
+   }
 	#project p {
 		font-size: 1rem;
 		padding-top: 1.5rem;
@@ -387,63 +310,53 @@ a:hover {
 		width: 100%;
 		margin-top: -1.5rem;
 		text-align: justify;
-
-	}
+   }
 	.project-img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 16rem;
-	}
+   }
 	a {
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-	}
+   }
 }
 /* Responsive for 5k+*/
-
 @media (min-width:5000px) {
-
 	body {
 		position: relative;
 		width: 100%;
 		font-size: 4.25rem;
-	}
-
-	 	.h-img {
+   }
+	.h-img {
 		max-width: 100%;
 		float: left;
 		margin: 0;
-	}
-
+   }
 	h1 {
 		font-size: 15.625rem;
-	}
-
+   }
 	h2, h3 {
 		font-size: 6rem;
-	}
-	
+   }
 	h4 {
 		font-size: 8rem;
-	}
-
-	h5 { font-size: 5rem;}
-
+   }
+	h5 {
+		font-size: 5rem;
+   }
 	#skills .desc {
 		line-height: 2;
 		font-size: 5rem;
-	}
-
+   }
 	.project-desc {
 		font-size: 5rem;
-	}
-
+   }
 	.proj-h3 {
 		margin-top: -8.5rem;
-	}
-
+   }
 	#skills .html-container, .javascript-container {
 		padding-top: 11rem;
 		padding-bottom: 22rem;
@@ -451,8 +364,8 @@ a:hover {
 		padding-right: 3rem;
 		width: 100%;
 		margin-top: -6rem;
-		text-align: justify;}
-
+		text-align: justify;
+   }
 	#skills .css-container, .python-django-container {
 		padding-top: 2rem;
 		padding-bottom: 24rem;
@@ -460,27 +373,21 @@ a:hover {
 		padding-right: 3rem;
 		width: 100%;
 		margin-top: 6rem;
-		text-align: justify;}
-
-		.container {
-			max-width: 1300px;
-			height: 1300px;
-			background: #fff;
-			margin: 150px auto;
-			box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
-			box-sizing: border-box;
-			padding: 40px;
-		}
-		.form-control{
-			font-size: 4rem;
-		}
-
-		textarea.form-control {
-			height: 550px;
-		}
-	
-
-
-
-
-	}
+		text-align: justify;
+   }
+	.container {
+		max-width: 1300px;
+		height: 1300px;
+		background: #fff;
+		margin: 150px auto;
+		box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+		box-sizing: border-box;
+		padding: 40px;
+   }
+	.form-control{
+		font-size: 4rem;
+   }
+	textarea.form-control {
+		height: 550px;
+   }
+}
