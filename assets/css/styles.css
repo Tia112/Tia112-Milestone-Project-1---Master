@@ -82,6 +82,7 @@ h5 {
 	padding-bottom: 0.3125rem;
 }
 
+
 a {
 	color: #141484;
 	font-family: 'Montserrat', sans-serif;
@@ -265,17 +266,7 @@ a:hover {
 	color: #486255;
 }
 
-.input,
-.msg .area {
-	width: 100%;
-	padding: 20px;
-	box-sizing: border-box;
-	margin-bottom: 25px;
-	border: 2px solid #e9eaea;
-	font-size: 14px;
-	border-radius: 5px;
-	outline: none;
-}
+
 
 .login .input {
 	width: 48%;
@@ -338,23 +329,26 @@ a:hover {
 		margin: 0;
 	}
 
-.profile{
-	width: 100%;}
+	.profile {
+		width: 100%;
+	}
 	
-
-
 	h1 {
 		font-size: 4.25rem;
 	}
+
 	h2 {
 		font-size: 1.5rem;
 	}
+	
 	h3 {
 		font-size: 1.1rem;
 	}
+	
 	#skills .desc {
 		font-size: 1rem;
 	}
+	
 	#skills .css-container {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
@@ -383,6 +377,7 @@ a:hover {
 		margin-top: -1.5rem;
 		text-align: justify;
 	}
+
 	#project p {
 		font-size: 1rem;
 		padding-top: 1.5rem;
@@ -392,6 +387,7 @@ a:hover {
 		width: 100%;
 		margin-top: -1.5rem;
 		text-align: justify;
+
 	}
 	.project-img {
 		display: block;
@@ -435,9 +431,6 @@ a:hover {
 
 	h5 { font-size: 5rem;}
 
-
-
-	
 	#skills .desc {
 		line-height: 2;
 		font-size: 5rem;
